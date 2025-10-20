@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-GB">
+	<head>
+
+		<!--                                               Maid in Yorkshire -->
+
+		<meta charset="utf-8" />
+
+		<!--                                                           Title -->
+		<title>Barnaby Sheeran</title>
+
+		<!--                                                     Description -->
+		<meta name="description" content="Portfolio" />
+
+		<!--                                                        Viewport -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui, shrink-to-fit=no, viewport-fit=cover"
+		/>
+
+		<!-- 														 Favicon -->
+		<link rel="shortcut icon" href="asset/ico/favicon.ico" />
+
+		<!--                                                          Styles -->
+		<style>
+            html,
+            body {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent; /* For some older devices */
+            }
+
+            html {
+                height: -webkit-fill-available;
+            }
+
+			body {
+				width: 100%;
+				min-height: 100vh;
+
+				/* mobile viewport bug fix */
+				min-height: -webkit-fill-available;
+
+				padding: 0;
+				margin: 0;
+
+				background-color: rgb(0, 0, 0, 1);
+
+				overflow: hidden;
+			}
+
+		</style>
+
+		<!-- 	                                                    Injected -->
+	</head>
+
+	<body>
+		<!-- Create DOM Element -->
+		<div id="application" class="application"></div>
+
+		<!-- Initialise Site -->
+		<script>
+			function onLoaded() {
+				// Get HTML Element
+				const APPLICATION_CONTAINER = document.getElementById('application');
+
+				// Create Configuration Object
+				const CREATION_PARAMETERS = {
+					applicationContainer: APPLICATION_CONTAINER,
+					assetPath: './asset/',
+					isDebug: false
+				};
+
+				// Initialise Application
+				const APPLICATION_INSTANCE = Application.create(CREATION_PARAMETERS);
+			}
+
+			// Wait for DOM to Load
+			document.addEventListener('DOMContentLoaded', onLoaded);
+		</script>
+	</body>
+</html>

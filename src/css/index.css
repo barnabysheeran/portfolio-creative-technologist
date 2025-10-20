@@ -1,0 +1,173 @@
+.application {
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	border: 0;
+	padding: 0;
+	margin: 0;
+
+	display: block;
+	box-sizing: border-box;
+
+	user-select: none;
+	pointer-events: none;
+
+	overflow: hidden;
+
+	background-color: #161616;
+
+	pointer-events: none;
+
+	-webkit-tap-highlight-color: transparent;
+}
+
+.application img {
+	border: 0;
+
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+/* __________________________________________________________________ Display */
+
+.application .display {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ____________________________________________________________________ Media */
+
+.application .display .media-surface {
+	position: absolute;
+
+	z-index: 100;
+}
+
+.application .display .media-surface {
+	position: absolute;
+
+	z-index: 100;
+}
+
+.application .display .media-surface .video-holder {
+	position: absolute;
+
+	left: 0;
+	top: 0;
+
+	width: 100%;
+	height: 100%;
+}
+
+.application .display .media-surface .video-holder .player-holder {
+	position: absolute;
+
+	left: 0;
+	top: 0;
+
+	width: 100%;
+	height: 100%;
+}
+
+.application .display .media-surface .video-holder .button-play {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 32px;
+	background: rgba(0, 0, 0, 0.1);
+	color: white;
+
+	pointer-events: auto;
+	cursor: pointer;
+
+	outline: none;
+	border: none;
+	box-shadow: none;
+	background-clip: padding-box;
+
+	-webkit-tap-highlight-color: transparent;
+	-webkit-focus-ring-color: transparent;
+	-webkit-user-select: none;
+	user-select: none;
+	touch-action: manipulation;
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+.application .display .media-surface .video-holder .button-play:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	border: none !important;
+}
+
+.application .display .media-surface .image-gallery {
+	position: absolute;
+
+	left: 0;
+	top: 0;
+
+	width: 100%;
+	height: 100%;
+
+	pointer-events: auto;
+}
+
+.application .display .media-surface .image-gallery .image {
+	position: absolute;
+
+	left: 0;
+	top: 0;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+
+	width: 100%;
+	height: 100%;
+}
+
+/* ___________________________________________________________ Render Surface */
+
+.application .display .render-surface {
+	position: absolute;
+
+	z-index: 200;
+}
+
+/* ______________________________________________________________ Interactive */
+
+.application .display .interactive-surface {
+	position: absolute;
+
+	z-index: 300;
+}
+
+.application .display .interactive-surface .interactive-block {
+	position: absolute;
+
+	z-index: 301;
+
+	pointer-events: auto;
+	cursor: pointer;
+}
+
+/* ______________________________________________________________ Development */
+
+.application .display .development-surface {
+	position: absolute;
+
+	z-index: 400;
+}

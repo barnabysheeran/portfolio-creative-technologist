@@ -1,0 +1,10 @@
+# Logs
+npm-debug.log*
+
+#Folders
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db

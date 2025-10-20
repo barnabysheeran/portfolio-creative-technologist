@@ -1,0 +1,218 @@
+{
+    "projects": [
+
+        {
+            "id": "battlebuilder",
+            "name": "BattleBuilder",
+            "name-short": "BattleBuilder",
+            "media": [
+                {
+                    "type": "image",
+                    "url": "project/battlebuilder/1.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/battlebuilder/2.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/battlebuilder/3.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/battlebuilder/4.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/battlebuilder/5.jpg"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "BATTLEBUILDER.NET",
+                    "url": "https://battlebuilder.net"
+                }
+            ]
+        },
+
+        {
+            "id": "pikcellsonfigr",
+            "name": "Pikcells / Onfigr",
+            "name-short": "Pikcells / Onfigr",
+            "media": [
+                {
+                    "type": "image",
+                    "url": "project/pikcellsonfigr/2.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/pikcellsonfigr/3.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/pikcellsonfigr/1.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/pikcellsonfigr/4.jpg"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "PIKCELLS.COM",
+                    "url": "https://www.pikcells.com"
+                },
+                {
+                    "text": "ONFIGR.COM",
+                    "url": "https://www.onfigr.com"
+                }
+            ]
+        },
+
+        {
+            "id": "postmatter",
+            "name": "postMATTER Exhibition",
+            "name-short": "postMATTER",
+            "media": [
+                {
+                    "type": "vimeo",
+                    "vimeo-id": "89530267"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "MORE",
+                    "url": "https://www.remiparingaux.com/postmatter-exhibition"
+                }
+            ]
+        },
+
+        {
+            "id": "ferrari",
+            "name": "Ferrari - Flagship Store",
+            "name-short": "Ferrari",
+            "media": [
+                {
+                    "type": "vimeo",
+                    "vimeo-id": "206564571"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "MORE",
+                    "url": "https://www.remiparingaux.com/ferrari"
+                }
+            ]
+        },
+
+        {
+            "id": "goodwood",
+            "name": "Goodwood Festival of Speed",
+            "name-short": "Goodwood",
+            "media": [
+                {
+                    "type": "image",
+                    "url": "project/goodwood/1.jpg"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "A+E",
+                    "url": "https://www.artistsandengineers.co.uk/work/sensum"
+                }
+            ]
+        },
+
+        {
+            "id": "honda",
+            "name": "HONDA - The Other Side",
+            "name-short": "HONDA",
+            "media": [
+                {
+                    "type": "image",
+                    "url": "project/honda/1.jpg"
+                },
+                                {
+                    "type": "image",
+                    "url": "project/honda/2.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/honda/3.jpg"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "Stink Studios",
+                    "url": "https://www.stinkstudios.com/work/honda-type-r"
+                },
+                {
+                    "text": "W+K",
+                    "url": "https://wklondon.com/work/the-other-side/"
+                }
+            ]
+        },
+
+        {
+            "id": "google",
+            "name": "GOOGLE - ABBEY ROAD",
+            "name-short": "GOOGLE",
+            "media": [
+                {
+                    "type": "image",
+                    "url": "project/google-abbey-road/1.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/google-abbey-road/2.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/google-abbey-road/3.jpg"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "Stink Studios",
+                    "url": "https://www.stinkstudios.com/work/inside-abbey-road"
+                }
+            ]
+        },
+
+        {
+            "id": "adidas",
+            "name": "ADIDAS - Flash",
+            "name-short": "ADIDAS",
+            "media": [
+                {
+                    "type": "vimeo",
+                    "vimeo-id": "22551157"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "Hi-ReS!",
+                    "url": "https://hi-res.net/"
+                }
+            ]
+        },
+
+        {
+            "id": "greenpeace",
+            "name": "Greenpeace",
+            "name-short": "Greenpeace",
+            "media": [
+                {
+                    "type": "vimeo",
+                    "vimeo-id": "148119789"
+                }
+            ],
+            "credit": [
+                {
+                    "text": "MORE {heart} Hi-ReS!",
+                    "url": "https://alexandrajugovic.com/loveletters"
+                }
+            ]
+        }
+    ]
+}
