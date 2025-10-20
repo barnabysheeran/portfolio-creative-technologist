@@ -1,6 +1,6 @@
 ### Portfolio Creative Technologist
 
-Webpack - Javascript - WebGL
+Webpack - JavaScript - WebGL  
 
 Deploys to barnabysheeran.com/ct   
 
