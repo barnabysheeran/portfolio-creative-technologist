@@ -93,8 +93,16 @@
             "name-short": "Ferrari",
             "media": [
                 {
-                    "type": "vimeo",
-                    "vimeo-id": "206564571"
+                    "type": "image",
+                    "url": "project/ferrari/1.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/ferrari/2.jpg"
+                },
+                {
+                    "type": "image",
+                    "url": "project/ferrari/3.jpg"
                 }
             ],
             "credit": [
